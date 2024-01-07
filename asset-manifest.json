@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Germanywale/static/css/main.17470055.css",
-    "main.js": "/Germanywale/static/js/main.63ad3ea2.js",
+    "main.css": "/Germanywale/static/css/main.1435a55b.css",
+    "main.js": "/Germanywale/static/js/main.d5149bf0.js",
     "static/js/787.15c406b2.chunk.js": "/Germanywale/static/js/787.15c406b2.chunk.js",
     "static/media/heroimage.svg": "/Germanywale/static/media/heroimage.3c3bc046b73a9fbecfb87adb9cff7924.svg",
     "static/media/Group 124.svg": "/Germanywale/static/media/Group 124.298ac03578e61b29fa56f2bfc8827643.svg",
@@ -21,12 +21,12 @@
     "static/media/slick.ttf": "/Germanywale/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Germanywale/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Germanywale/index.html",
-    "main.17470055.css.map": "/Germanywale/static/css/main.17470055.css.map",
-    "main.63ad3ea2.js.map": "/Germanywale/static/js/main.63ad3ea2.js.map",
+    "main.1435a55b.css.map": "/Germanywale/static/css/main.1435a55b.css.map",
+    "main.d5149bf0.js.map": "/Germanywale/static/js/main.d5149bf0.js.map",
     "787.15c406b2.chunk.js.map": "/Germanywale/static/js/787.15c406b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17470055.css",
-    "static/js/main.63ad3ea2.js"
+    "static/css/main.1435a55b.css",
+    "static/js/main.d5149bf0.js"
   ]
 }
