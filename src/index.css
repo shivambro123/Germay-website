@@ -21,3 +21,8 @@ code {
   src: url('./assests//fonts/ZonaPro-Bold.otf');
   font-style: normal;
 }
+@font-face {
+  font-family: 'ZonaThin';
+  src: url('./assests//fonts/ZonaPro-Thin.otf');
+  font-style: normal;
+}

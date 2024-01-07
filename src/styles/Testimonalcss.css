@@ -1,8 +1,60 @@
 .testimonal {
-    /* background-image: url("./../assests/testimonal/anthonygrouped.svg");
-    height: 60vh;
+    background-image: url("./../assests/testimonal/checkgroup.png");
+    height: 50vh; /* Adjust the min-height value as needed */
+    width: 100%;
+    max-width: 98%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    box-shadow: 2px 0 2px #E6E5E5;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 10px;
+    z-index: 30 !important;
+    display: flex;
+    flex-direction: column;
+}
+.view{
+    height: 100px;
+    background-image: url('../assests//testimonal//storyback2.jpg');
+    color: #ffffff;
+    background-size: contain;
+    width: 100%;
+    /* background-image: linear-gradient(to right, rgba(232, 161, 30, 0.912) , orange); */
+    border-radius: 0px 0 10px 10px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.firstvector{
+    background-image: url("../assests/testimonal/Vector1.svg");
+    background-repeat: no-repeat;
+    height: 5vh;
     width: 50%;
-    background-size: cover;
-    background-repeat: no-repeat; */
-    
+    position: absolute;
+    top: 10px;
+    left: 4px;
+}
+.secondvector{
+    background-image: url("../assests/testimonal/Vector2.svg");
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 50%;
+    position: absolute;
+    bottom: 115px;
+    right: 60px;
+}
+.namebtn {
+    /* background-image: linear-gradient(to right, #ea7c06c1, #f1810a);
+     */
+     /* background-image: url('./../assests/testimonal/namebackground.svg'); */
+     background-color: #DE3714;
+     background-size: cover;
+     background-repeat: no-repeat;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 3px 6px;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 100 !important;
 }

@@ -24,10 +24,12 @@
     /* background-image: linear-gradient(to right, #ea7c06c1, #f1810a);
      */
      background-image: url('./../assests/btn_background.svg');
+     background-size: cover;
+     background-repeat: no-repeat;
     color: #ffffff;
     font-size: 24px;
     padding: 6px 12px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     font-style: normal;
     font-weight: 100 !important;
 }
