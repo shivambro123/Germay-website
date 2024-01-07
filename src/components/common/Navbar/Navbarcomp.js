@@ -18,31 +18,31 @@ function Navbarcomp() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link
-              className="mx-4 font-bold text-black text-lg"
-              // data-to-scrollspy-id="first"
+              className="mx-4 font-bold text-black text-base"
+              data-to-scrollspy-id="first"
             >
               Home
             </Nav.Link>
             <Nav.Link
-              className="mx-4 font-bold text-black text-lg"
-              // data-to-scrollspy-id="second"
+              className="mx-4 font-bold text-black text-base"
+              data-to-scrollspy-id="second"
             >
               About Us
             </Nav.Link>
             <Nav.Link
-              className="mx-4 font-bold text-black text-lg"
+              className="mx-4 font-bold text-black text-base"
               href="#link"
             >
               Services
             </Nav.Link>
             <Nav.Link
-              className="mx-4 font-bold text-black text-lg"
+              className="mx-4 font-bold text-black text-base"
               href="#link"
             >
               Reviews
             </Nav.Link>
             <Nav.Link
-              className="mx-4 font-bold text-black text-lg"
+              className="mx-4 font-bold text-black text-base"
               href="#link"
             >
               Contact Us

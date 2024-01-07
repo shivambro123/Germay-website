@@ -7,6 +7,7 @@ import tesla from "./../../assests/Tesla_logo.svg";
 import bmw from "./../../assests/bmw.svg";
 import oodd from "./../../assests/oodd.svg";
 import sap from "./../../assests/sap.svg";
+import btn_background from '../../assests/btn_background.svg';
 import lufthansa from "./../../assests/Lufthansa_Logo_2018.svg";
 
 const Hero = () => {
@@ -30,7 +31,7 @@ const Hero = () => {
                 </p>
               </div>
               <div className="mt-5">
-                <p className="text-base" style={{ fontFamily: "100" }}>
+                <p className="text-base font-thin" style={{ fontWeight: "100" }}>
                   Our students finished University to work at{" "}
                   <span className="percent">global offices</span> of
                 </p>

@@ -21,7 +21,9 @@
 }
 
 .callbtn {
-    background-image: linear-gradient(to right, #ea7c06c1, #f1810a);
+    /* background-image: linear-gradient(to right, #ea7c06c1, #f1810a);
+     */
+     background-image: url('./../assests/btn_background.svg');
     color: #ffffff;
     font-size: 24px;
     padding: 6px 12px;

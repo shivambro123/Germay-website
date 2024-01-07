@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import "./../../styles/Testimonalcss.css";
 // import { FaBeer, FaChevronLeft } from "react-icons/fa";
 import anthonyreedy from "./../../assests/testimonal/anthonygrouped.svg";
@@ -97,8 +97,8 @@ function Success() {
 
   return (
     <>
-      <section id="second">
-        <Container>
+      <section id="second" className="pb-5">
+        <Container className="px-4">
           <div className="text-left">
             <h3 className="text-4xl font-bold mb-2 overflow-hidden">
               What our student speak
@@ -119,20 +119,24 @@ function Success() {
                 <FaChevronRight className="text__20" />
               </button>
             </div>
+            <Row>
             <Slider ref={setSliderRef} {...sliderSettings}>
               {hotelCards.map((card, index) => (
+                <Col className="m-auto">
                 <div key={index}>
-                  <div className="testimonal">
-                    {/* <img
+                  <div className="testimonal border">
+                    <img
                       src={card.imageSrc}
                       alt={card.title}
                       className="h-full rounded-xl w-full object-fill md:w-4/5"
-                    /> */}
+                    />
                     hiii hell
                   </div>
                 </div>
+                </Col>
               ))}
             </Slider>
+            </Row>
           </div>
         </Container>
       </section>

@@ -16,13 +16,13 @@ import germany from "../../assests/testimonal/germany.svg";
 const Header = () => {
   return (
     <Container>
-      <div className="headerwrapper py-3">
+      <div className="headerwrapper py-3 px-4">
         <div className="contact flex">
           <IoIosCall className="text-xl hover:text-orange-400" />
-          <img src={india} alt="india logo" height={30} width={30} />
+          <img src={india} alt="india logo" height={28} width={28} />
           <h3>+91 -72198 49834</h3>
           <IoIosCall className="text-xl hover:text-orange-400  ml-2" />
-          <img src={germany} alt="germany logo" height={30} width={30} />
+          <img src={germany} alt="germany logo" height={28} width={28} />
           <h3>+49-17655471593</h3>
           <HiOutlineMail className="text-xl hover:text-orange-400  ml-2" />
           <h3>contact@germanywale.com</h3>

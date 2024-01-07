@@ -10,11 +10,11 @@ const Landingpage = () => {
     <>
       <Header />
       <Navbarcomp />
-      {/* <ScrollSpy> */}
+      <ScrollSpy>
         <Hero />
         <Testimonal />
-        <Hero />
-      {/* </ScrollSpy> */}
+        {/* <Hero />   */}
+      </ScrollSpy>
     </>
   );
 };
