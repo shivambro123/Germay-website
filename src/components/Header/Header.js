@@ -18,23 +18,23 @@ const Header = () => {
     <Container>
       <div className="headerwrapper py-3">
         <div className="contact flex">
-          <IoIosCall className="text-2xl hover:text-orange-400" />
+          <IoIosCall className="text-xl hover:text-orange-400" />
           <img src={india} alt="india logo" height={30} width={30} />
           <h3>+91 -72198 49834</h3>
-          <IoIosCall className="text-2xl hover:text-orange-400  ml-2" />
+          <IoIosCall className="text-xl hover:text-orange-400  ml-2" />
           <img src={germany} alt="germany logo" height={30} width={30} />
           <h3>+49-17655471593</h3>
-          <HiOutlineMail className="text-2xl hover:text-orange-400  ml-2" />
+          <HiOutlineMail className="text-xl hover:text-orange-400  ml-2" />
           <h3>contact@germanywale.com</h3>
-          <FaWhatsapp className="text-2xl hover:text-orange-400 ml-2" />
+          <FaWhatsapp className="text-xl hover:text-orange-400 ml-2" />
           <h3>+91-8484977234</h3>
         </div>
         <div className="social">
           <div className="social_content flex justify-end ">
-            <FaInstagram className="mx-2 text-2xl hover:text-orange-400" />
-            <FaFacebookF className="mx-2 text-2xl hover:text-orange-400" />
-            <FaLinkedin className="mx-2 text-2xl hover:text-orange-400" />
-            <LiaYoutube className="mx-2 text-2xl hover:text-orange-400" />
+            <FaInstagram className="mx-2 text-xl hover:text-orange-400" />
+            <FaFacebookF className="mx-2 text-xl hover:text-orange-400" />
+            <FaLinkedin className="mx-2 text-xl hover:text-orange-400" />
+            <LiaYoutube className="mx-2 text-xl hover:text-orange-400" />
           </div>
         </div>
       </div>

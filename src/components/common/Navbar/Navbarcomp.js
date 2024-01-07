@@ -19,13 +19,13 @@ function Navbarcomp() {
           <Nav className="ms-auto">
             <Nav.Link
               className="mx-4 font-bold text-black text-lg"
-              data-to-scrollspy-id="first"
+              // data-to-scrollspy-id="first"
             >
               Home
             </Nav.Link>
             <Nav.Link
               className="mx-4 font-bold text-black text-lg"
-              data-to-scrollspy-id="second"
+              // data-to-scrollspy-id="second"
             >
               About Us
             </Nav.Link>
