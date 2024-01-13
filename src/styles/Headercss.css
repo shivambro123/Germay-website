@@ -1,11 +1,31 @@
 .headerwrapper {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .contact {
     flex: 0 0 60%;
 }
-
+.contact h3{
+    font-size: 14px;
+}
 .social {
     flex: 0 0 40%;
+}
+/* .social .social_content{
+    height: 35px;
+    width: 35px;
+} */
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .headerwrapper{
+
+    }
+    .contact{
+        flex: 0 0 100%;
+
+    }
+    .social{
+        flex: 0 0 100%;
+    }
 }

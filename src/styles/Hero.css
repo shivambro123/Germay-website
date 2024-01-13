@@ -1,5 +1,5 @@
 .herowrapper {
-    background-image: url('./../assests//hero_background2.svg');
+    background-image: url('./../assests/NewHero.jpeg');
     background-position: right;
     background-size: cover;
     height: 100vh;
@@ -8,8 +8,18 @@
 
 .hero_content {
     text-align: left;
-    font-family: 'ZonaPro';
+    font-family: 'ZonaPro-Bold';
     font-size: 40px;
+}
+
+.hero_content .dreams{
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.dreams .dream-f{
+    font-family: 'ZonaPro-Regular';
+    font-weight:bolder;
+
 }
 
 .hero_content .studycontent {
@@ -37,6 +47,9 @@
 .guranteewrapper {
     font-size: 22px;
 }
+.our-student{
+    font-family: 'ZonaPro-Regular';
+}
 
 .percent {
     background: -webkit-linear-gradient(#EA7D06, #f1810a);
@@ -44,4 +57,10 @@
     -webkit-text-fill-color: transparent;
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {}
+@media screen and (min-width:320px) and (max-width:480px) {
+    .herowrapper{
+        height: max-content;
+    }
+
+    
+}

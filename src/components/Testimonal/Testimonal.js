@@ -9,8 +9,6 @@ import "./../../styles/Testimonalcss.css";
 import anthonyreedy from "./../../assests/testimonal/reddy.svg";
 import playbtn from "./../../assests/testimonal/play.svg";
 import university from "./../../assests/testimonal/University_of_Europe.png";
-
-
 import { FaPlayCircle } from 'react-icons/fa';
 
 function Success() {
@@ -78,15 +76,15 @@ function Success() {
 
   return (
     <>
-      <section id="second" className="pb-5">
+      <section id="second" className="pb-5 testi">
         <Container className="px-4">
           <div className="text-left">
-            <h3 className="text-4xl font-bold mb-2 overflow-hidden">
+            <h3 className="text-4xl font-bold mt-4 mb-4 overflow-hidden studentspeak">
               What our student speak
             </h3>
           </div>
           <div className="h-full min-w-full">
-            <div className="mb-2 flex justify-end md:mr-20 mr-2">
+            {/* <div className="mb-2 flex justify-end md:mr-20 mr-2">
               <button
                 onClick={sliderRef?.slickPrev}
                 className="bg-orange-500 p-3 rounded-full text-white hover:text-black"
@@ -99,15 +97,15 @@ function Success() {
               >
                 <FaChevronRight className="text__20" />
               </button>
-            </div>
+            </div> */}
          
             <Slider ref={setSliderRef} {...sliderSettings}>
               {hotelCards.map((card, index) => (
             <>
                   <div className="testimonal">
-                    <div className=" h-full ">
+                    <div className="">
                     <div className="relative text-left">
-                      <div className="px-3 py-3 ">
+                      <div className="px-3 py-3 pb-0">
                     <p className="text-base text-left text-[#000000]" style={{lineHeight:"1.10rem"}}>My entire application process with Germanywale has been 
                     extremely smooth. Everyone in the team is exceptional and very helpful.   I have zero complaints. I would recommend   
                     </p>

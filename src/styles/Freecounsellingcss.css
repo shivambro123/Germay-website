@@ -1,0 +1,17 @@
+.freelance_wrapper{
+    display: flex;
+}
+.freelace-left{
+    flex: 0 0 50%;
+}
+.freelace-left .university_img{
+    height: 40vh;
+    width: 100%;
+}
+.university_content h3{
+    font-family: 'ZonaPro-Bold';
+}
+.freelace-right{
+    flex: 0 0 50%;
+
+}

@@ -16,9 +16,9 @@ const Hero = () => {
       <div className="herowrapper" id="first">
         <Container className="py-20">
           <Row className="px-4 py-4 h-full">
-            <Col lg={5} md={6} className="hero_content">
-              <div className="mb-4">
-                Empowering dreams of
+            <Col lg={5} md={6} sm={12} className="hero_content">
+              <div className="mb-4 drop-shadow-xl ">
+                <p className="dreams">Empowering dreams o<span className="dream-f">f</span></p>
                 <h2 className="studycontent">Studying in Germany</h2>
                 <button className="callbtn">Call for FREE counselling</button>
               </div>
@@ -31,12 +31,12 @@ const Hero = () => {
                 </p>
               </div>
               <div className="mt-5">
-                <p className="text-base font-thin" style={{ fontWeight: "100" }}>
+                <p className="text-base font-thin our-student" style={{ fontWeight: "100" }}>
                   Our students finished University to work at{" "}
                   <span className="percent">global offices</span> of
                 </p>
               </div>
-              <div className="flex justify-between mt-3">
+              <div className="flex justify-between flex-wrap mt-3">
                 <img src={tesla} alt="tesla" />
                 <img src={bmw} alt="bmw" />
                 <img src={oodd} alt="oodd" />
@@ -47,6 +47,7 @@ const Hero = () => {
             <Col
               lg={7}
               md={6}
+              sm={12}
               className="flex justify-center align-middle h-3/4 "
             >
               <img src={coverimage} alt="coverimage" className="coverimage" />
