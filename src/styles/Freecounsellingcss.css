@@ -1,17 +1,87 @@
 .freelance_wrapper{
+    padding: 40px 0;
     display: flex;
+    position: relative;
+    
 }
 .freelace-left{
     flex: 0 0 50%;
+    padding: 0 1.5rem;
 }
 .freelace-left .university_img{
     height: 40vh;
     width: 100%;
+    padding-right: 5rem;
+    object-fit: contain;
+}
+.university_content{
+    text-align: left;
+
 }
 .university_content h3{
     font-family: 'ZonaPro-Bold';
+    font-size: 32px;
 }
+.university_content .applicartion_title{
+    font-family: 'ZonaPro-Regular';
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+
+.university_content .lorem{
+    font-family: 'ZonaPro-Regular';
+    font-size: 1.2rem;
+}
+.university_content .explore_wrapper{
+    width: 100%;
+    
+}
+.university_content .explore_btn{
+    /* background-image: url('./../assests//Freelance//explore_university.svg'); */
+    background-image: linear-gradient(to right, rgb(255, 157, 0),orange);
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
 .freelace-right{
     flex: 0 0 50%;
+    padding: 0 1.5rem;
 
+}    
+.freelace-right .university_content{
+    padding: 0 1.5rem;
+}       
+
+.divider_line{
+
+}
+.curriculum{
+    height: 50vh;
+    width: 100%;
+    padding-right: 5rem;
+    object-fit: contain;
+}
+.interview{
+    height: 60vh;   
+    width: 100%;
+    padding-right: 5rem;
+    object-fit: contain;
+}
+
+.divider_line{
+    position: absolute;
+    width: 5px;
+    height: 1280px;
+    /* border: 2px solid; */
+    background-color: orange;
+    top: 0;
+    left: 50%;
+}
+.progress{
+    width: 100%;
+    height: 10vh;
+}
+.progress .inner_progress{
+    width: 100%;
+    height: 60vh;
 }

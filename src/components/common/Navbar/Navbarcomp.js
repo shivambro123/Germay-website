@@ -31,7 +31,7 @@ function Navbarcomp() {
             </Nav.Link>
             <Nav.Link
               className="mx-4 font-bold text-black text-base"
-              href="#link"
+              data-to-scrollspy-id="third"
             >
               Services
             </Nav.Link>
