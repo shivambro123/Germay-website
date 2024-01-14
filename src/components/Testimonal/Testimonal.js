@@ -134,7 +134,7 @@ useEffect(()=>{
                     </div>
                   
                     </div>
-                    <div className="view text-lg"> 
+                    <div className="view text-lg" div data-aos="fade-right"> 
                      {/* <FaPlayCircle className="text-xl"/> */}
                      <img src={playbtn} alt="playbtn"/>
                       &nbsp;Watch Story
