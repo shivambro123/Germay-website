@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
@@ -10,6 +10,8 @@ import anthonyreedy from "./../../assests/testimonal/reddy.svg";
 import playbtn from "./../../assests/testimonal/play.svg";
 import university from "./../../assests/testimonal/University_of_Europe.png";
 import { FaPlayCircle } from 'react-icons/fa';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Success() {
   const [sliderRef, setSliderRef] = useState(null);
@@ -74,6 +76,13 @@ function Success() {
 
   ];
 
+useEffect(()=>{
+  AOS.init({
+    duration: 1000,
+    offset: 50
+  })
+})
+
   return (
     <>
       <section id="second" className="pb-5 testi">
@@ -102,16 +111,16 @@ function Success() {
             <Slider ref={setSliderRef} {...sliderSettings}>
               {hotelCards.map((card, index) => (
             <>
-                  <div className="testimonal">
-                    <div className="">
+                  <div className="testimonal" data-aos="flip-left">
+                    <div>
                     <div className="relative text-left">
-                      <div className="px-3 py-3 pb-0">
-                    <p className="text-base text-left text-[#000000]" style={{lineHeight:"1.10rem"}}>My entire application process with Germanywale has been 
+                      <div className="px-3 py-3 pb-0 leading-4">
+                    <p className="testi-feedback text-left text-[#000000] w-96">My entire application process with Germanywale has been 
                     extremely smooth. Everyone in the team is exceptional and very helpful.   I have zero complaints. I would recommend   
                     </p>
                      
-                     <p className="text-base text-left w-64 text-[#000000]" style={{lineHeight:"1.10rem"}}>Germanywale to any student who is looking to go to Germany to make their
-                      study-abroad <br/>dreams come true.</p>
+                     <p className="testi-feedback text-left w-64 text-[#000000]" >Germanywale to any student who is looking to go to Germany to make <br/> their
+                       study-abroad <br/>dreams come true.</p>
                       <div className="ml-28"> <button className="namebtn mt-3">Anthony Reddy</button></div>
                       <p className="text-xs text-left text-[#000000] w-32">Master of Business Administration</p>
                      <img src={university} alt="university_logo" height={70} width={65} className=""/>

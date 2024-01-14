@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import "./../../styles/Hero.css";
 import coverimage from "./../../assests/heroimage.svg";
@@ -9,13 +9,21 @@ import oodd from "./../../assests/oodd.svg";
 import sap from "./../../assests/sap.svg";
 import btn_background from '../../assests/btn_background.svg';
 import lufthansa from "./../../assests/Lufthansa_Logo_2018.svg";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Hero = () => {
+  useEffect(()=>{
+    AOS.init({
+        duration: 1000,
+        offset: 50
+    })
+})
   return (
     <>
       <div className="herowrapper" id="first">
         <Container className="py-20">
-          <Row className="px-4 py-4 h-full">
+          <Row className="px-4 py-4 h-full" data-aos="fade-up">
             <Col lg={5} md={6} sm={12} className="hero_content">
               <div className="mb-4 drop-shadow-xl ">
                 <p className="dreams">Empowering dreams o<span className="dream-f">f</span></p>

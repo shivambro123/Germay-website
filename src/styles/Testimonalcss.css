@@ -4,7 +4,7 @@
 } */
 .testimonal {
     background-image: url("./../assests/testimonal/checkgroup.png");
-    height: 48vh; /* Adjust the min-height value as needed */
+    height: 50vh; /* Adjust the min-height value as needed */
     width: 100%;
     max-width: 98%;
     background-size: contain;
@@ -18,7 +18,11 @@
     flex-direction: column;
 }
 .studentspeak{
-    font-family: 'ZonaPro-Bold';
+    font-family: 'ZonaPro-Regular';
+}
+.testi-feedback{
+    font-size: 15px;
+    line-height: 1.2rem;
 }
 .view{
     height: 100px;
@@ -48,8 +52,8 @@
     height: 5vh;
     width: 50%;
     position: absolute;
-    bottom: 115px;
-    right: 60px;
+    bottom: 76px;
+    right: 46px;
 }
 .namebtn {
     /* background-image: linear-gradient(to right, #ea7c06c1, #f1810a);
