@@ -115,7 +115,7 @@ useEffect(()=>{
                     <div>
                     <div className="relative text-left">
                       <div className="px-3 py-3 pb-0 leading-4">
-                    <p className="testi-feedback text-left text-[#000000] w-96">My entire application process with Germanywale has been 
+                    <p className="testi-feedback text-left text-[#000000]">My entire application process with Germanywale has been 
                     extremely smooth. Everyone in the team is exceptional and very helpful.   I have zero complaints. I would recommend   
                     </p>
                      

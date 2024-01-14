@@ -20,7 +20,7 @@ const Freecounselling = () => {
         <div className='freelance_wrapper'>
             <div className='freelace-left'>
                 <div className='mb-2'>
-                <div className='mb-5' div data-aos="fade-right"><img src={university} alt="universityshort" className='university_img'/></div>
+                <div className='mb-2  md:mb-5' div data-aos="fade-right"><img src={university} alt="universityshort" className='university_img'/></div>
                 <div className='university_content'>
                     <h3 className='mb-2'>University Shortlisting</h3>
                     <p className='mb-2 applicartion_title'>50% Applications fail due to wrong choice of university</p>
