@@ -20,7 +20,10 @@ function Success() {
     arrows: false,
     slidesToShow: 3,
     slidesToScroll: 1,
-    infinite: false,
+    autoplay:true,
+    speed:200,
+    infinite: true,
+    cssEase: 'ease',
     responsive: [
       {
         breakpoint: 1024,
@@ -38,6 +41,27 @@ function Success() {
   };
 
   const hotelCards = [
+    {
+      imageSrc: anthonyreedy,
+      title: "Studio Room",
+      description: "Lorem ipsum dolor sit amet, consectur dolori",
+      pricingText: "USD 50/Day",
+      features: ["Free Wifi", "Free breakfast"],
+    },
+    {
+      imageSrc: anthonyreedy,
+      title: "Studio Room",
+      description: "Lorem ipsum dolor sit amet, consectur dolori",
+      pricingText: "USD 50/Day",
+      features: ["Free Wifi", "Free breakfast"],
+    },
+    {
+      imageSrc: anthonyreedy,
+      title: "Studio Room",
+      description: "Lorem ipsum dolor sit amet, consectur dolori",
+      pricingText: "USD 50/Day",
+      features: ["Free Wifi", "Free breakfast"],
+    },
     {
       imageSrc: anthonyreedy,
       title: "Studio Room",

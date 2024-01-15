@@ -18,20 +18,20 @@ const Header = () => {
     <Container>
       <div className="headerwrapper py-3 px-4"> 
         <div className="contact flex flex-wrap">
-          <div className="flex flex-wrap ">
-          <div className="flex items-center">
+          <div className="flex flex-wrap justify-center md:justify-normal mb-2 md:mb-0">
+          <div className="flex items-center justify-center md:justify-start my-2 md:my-0">
             <IoIosCall className="text-xl hover:text-orange-400" />
           &nbsp;<img src={india} alt="india logo" height={26} width={26} />
           <h3 className="text-xs font-bold"> &nbsp;+91 -72198 49834</h3>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center my-2 md:my-0">
           <IoIosCall className="text-xl hover:text-orange-400  ml-2" />
           &nbsp;<img src={germany} alt="germany logo" height={26} width={26} />
           <h3 className="text-xs font-bold"> &nbsp;+49-17655471593</h3></div>
-          <div className="flex items-center">
+          <div className="flex items-center my-2 md:my-0">
           <HiOutlineMail className="text-xl hover:text-orange-400  ml-2" />
           <h3 className="text-xs font-bold"> &nbsp;contact@germanywale.com</h3> </div>
-          <div className="flex items-center"><FaWhatsapp className="text-xl hover:text-orange-400 ml-2" />
+          <div className="flex items-center my-2 md:my-0"><FaWhatsapp className="text-xl hover:text-orange-400 ml-2" />
           <h3 className="text-xs font-bold"> &nbsp;+91-8484977234</h3></div>
         </div>
         </div>

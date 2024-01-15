@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 const Freecounselling = () => {
     useEffect(()=>{
         AOS.init({
-            duration: 1000,
+            duration: 1800,
             offset: 50
         })
     })
@@ -19,8 +19,8 @@ const Freecounselling = () => {
     <div className='container' id="third">
         <div className='freelance_wrapper'>
             <div className='freelace-left'>
-                <div className='mb-2'>
-                <div className='mb-2  md:mb-5' div data-aos="fade-right"><img src={university} alt="universityshort" className='university_img'/></div>
+                <div className='mb-2'  data-aos="zoom-in">
+                <div className='mb-2  md:mb-5' ><img src={university} alt="universityshort" className='university_img'/></div>
                 <div className='university_content'>
                     <h3 className='mb-2'>University Shortlisting</h3>
                     <p className='mb-2 applicartion_title'>50% Applications fail due to wrong choice of university</p>
@@ -29,9 +29,9 @@ const Freecounselling = () => {
                     <div className='explore_wrapper'><button className='explore_btn py-2 px-4 text-white font-bold text-xl rounded'>Explore Now</button></div>
                     </div>
                     </div>    
-                    <div>
-                <div className='mb-2' div data-aos="fade-right"><img src={curriculum} alt="universityshort" className='curriculum'/></div>
-                <div className='university_content'>
+                    <div >
+                <div className='mb-2' data-aos="zoom-in"><img src={curriculum} alt="universityshort" className='curriculum'/></div>
+                <div className='university_content'  data-aos="zoom-in">
                     <h3 className='mb-2'>Curriculum Vitae</h3>
                     <p className='mb-2 applicartion_title'>Full Assistance</p>
                     <p className='lorem mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
@@ -42,7 +42,7 @@ const Freecounselling = () => {
                 </div>
               
             <div className='freelace-right'>
-                <div>
+                <div  data-aos="zoom-in">
             <div className='university_content'>
                     <h3 className='mb-2'>Free Counselling</h3>
                     <p className='mb-2 applicartion_title'>Our personalized session at NO COST </p>
@@ -51,9 +51,9 @@ const Freecounselling = () => {
                     <div className='explore_wrapper'><button className='explore_btn py-2 px-4 text-white font-bold text-xl rounded'>Explore Now</button></div>
                     </div>
                 </div>
-                <div>
-                <div className='mb-2' div data-aos="fade-left"><img src={statement} alt="statement" className='statement'/></div>
-                <div className='university_content ps-2'>
+                <div  >
+                <div className='mb-2' data-aos="zoom-in"><img src={statement} alt="statement" className='statement'/></div>
+                <div className='university_content ps-2' data-aos="zoom-in">
                     <h3 className='mb-2'>Statement of purpose</h3>
                     <p className='mb-2 applicartion_title'>Stand out from the crowd</p>
                     <p className='lorem mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
@@ -61,8 +61,8 @@ const Freecounselling = () => {
                     <div className='explore_wrapper'><button className='explore_btn py-2 px-4 text-white font-bold text-xl rounded'>Explore Now</button></div>
                     </div>
                     </div>  
-                    <div>
-                <div className='mb-2 text-left' div data-aos="fade-left"><img src={interview} alt="interview" className='interview'/></div>
+                    <div  data-aos="zoom-in">
+                <div className='mb-2 text-left'><img src={interview} alt="interview" className='interview'/></div>
              
                     </div>  
             </div>
