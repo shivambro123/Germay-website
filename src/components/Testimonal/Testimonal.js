@@ -18,27 +18,27 @@ function Success() {
 
   const sliderSettings = {
     arrows: false,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay:true,
-    speed:200,
-    infinite: true,
-    cssEase: 'ease',
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-        },
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  speed: 200,
+  infinite: true,
+  cssEase: 'ease',
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
       },
-      {
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 1,
-        },
+    },
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 1,
       },
-    ],
-  };
+    },
+  ],
+};
 
   const hotelCards = [
     {
@@ -102,8 +102,8 @@ function Success() {
 
 useEffect(()=>{
   AOS.init({
-    duration: 1000,
-    offset: 50
+    duration: 2000,
+    offset: 100
   })
 })
 
@@ -117,25 +117,25 @@ useEffect(()=>{
             </h3>
           </div>
           <div className="h-full min-w-full">
-            {/* <div className="mb-2 flex justify-end md:mr-20 mr-2">
-              <button
+            <div className="mb-2 flex justify-end md:mr-20 mr-2">
+              {/* <button
                 onClick={sliderRef?.slickPrev}
                 className="bg-orange-500 p-3 rounded-full text-white hover:text-black"
               >
                 <FaChevronLeft className="text__20" />
-              </button>
+              </button> */}
               <button
                 onClick={sliderRef?.slickNext}
                 className="bg-orange-500 p-3 rounded-full text-white hover:text-black ml-3"
               >
                 <FaChevronRight className="text__20" />
               </button>
-            </div> */}
+            </div>
          
             <Slider ref={setSliderRef} {...sliderSettings}>
               {hotelCards.map((card, index) => (
             <>
-                  <div className="testimonal" data-aos="flip-left">
+                  <div className="testimonal">
                     <div>
                     <div className="relative text-left">
                       <div className="px-3 py-3 pb-0 leading-4">
@@ -145,7 +145,7 @@ useEffect(()=>{
                      
                      <p className="testi-feedback text-left w-64 text-[#000000]" >Germanywale to any student who is looking to go to Germany to make <br/> their
                        study-abroad <br/>dreams come true.</p>
-                      <div className="ml-28"> <button className="namebtn mt-3">Anthony Reddy</button></div>
+                      <div className="ml-28"> <button className="namebtn mt-3 z-50">Anthony Reddy</button></div>
                       <p className="text-xs text-left text-[#000000] w-32">Master of Business Administration</p>
                      <img src={university} alt="university_logo" height={70} width={65} className=""/>
                      </div>
@@ -158,20 +158,20 @@ useEffect(()=>{
                     </div>
                   
                     </div>
-                    <div className="view text-lg" div data-aos="fade-right"> 
+                    <div className="view text-lg"> 
                      {/* <FaPlayCircle className="text-xl"/> */}
                      <img src={playbtn} alt="playbtn"/>
                       &nbsp;Watch Story
                     </div>
                   </div>
                 
-                  {/* <div className="absolute w-96 h-auto" style={{bottom:"53px",zIndex:"0"}}>
+                  <div className="absolute w-96 h-auto py-3 ps-5 z-10" style={{bottom:"48px"}}>
                     <img
                       src={card.imageSrc}
                       alt={card.title}
                       className="h-full w-full"
                     />
-                  </div> */}
+                  </div>
                   </>
               ))}
             </Slider>

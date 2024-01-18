@@ -15,14 +15,14 @@ import 'aos/dist/aos.css';
 const Hero = () => {
   useEffect(()=>{
     AOS.init({
-        duration: 1000,
+        duration: 1800,
         offset: 50
     })
 })
   return (
     <>
       <div className="herowrapper" id="first">
-        <Container className="py-20">
+        <Container className="py-12">
           <Row className="px-4 py-4 h-full" data-aos="fade-up">
             <Col lg={5} md={6} sm={12} className="hero_content">
               <div className="mb-4 drop-shadow-xl ">
@@ -44,13 +44,6 @@ const Hero = () => {
                   <span className="percent">global offices</span> of
                 </p>
               </div>
-              <div className="flex justify-between flex-wrap mt-3">
-                <img src={tesla} alt="tesla" />
-                <img src={bmw} alt="bmw" />
-                <img src={oodd} alt="oodd" />
-                <img src={sap} alt="sap" />
-                <img src={lufthansa} alt="lufthansa" />
-              </div>
             </Col>
             <Col
               lg={7}
@@ -60,7 +53,15 @@ const Hero = () => {
             >
               <img src={coverimage} alt="coverimage" className="coverimage" />
             </Col>
+            <div className="flex flex-wrap mt-3 brandlogos">
+                <img src={tesla} alt="tesla" />
+                <img src={bmw} alt="bmw" />
+                <img src={oodd} alt="oodd" />
+                <img src={sap} alt="sap" />
+                <img src={lufthansa} alt="lufthansa" />
+              </div>
           </Row>
+  
         </Container>
       </div>
     </>

@@ -2,7 +2,6 @@
     background-image: url('./../assests/NewHero.jpeg');
     background-position: right;
     background-size: cover;
-    height: 100vh;
     width: 100%;
 }
 
@@ -24,7 +23,7 @@
 
 .hero_content .studycontent {
     font-size: 40px;
-    background: -webkit-linear-gradient(#c4915b, #f1810a);
+    background: linear-gradient(to right, #EA7D06, #D63815);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -33,13 +32,11 @@
 .callbtn {
     /* background-image: linear-gradient(to right, #ea7c06c1, #f1810a);
      */
-     background-image: url('./../assests/btn_background.svg');
-     background-size: cover;
-     background-repeat: no-repeat;
+    background-image: linear-gradient(to right, #EA7D06, #D63815);
     color: #ffffff;
     font-size: 24px;
     padding: 6px 18px;
-    /* border-radius: 10px; */
+    border-radius: 10px;
     font-style: normal;
     font-weight: 100 !important;
     font-family: 'ZonaPro-Regular';
@@ -57,11 +54,17 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.brandlogos img {
+    margin-right: 1rem;
+}
 
 @media screen and (min-width:320px) and (max-width:480px) {
     .herowrapper{
         height: max-content;
     }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                .brandlogos img {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    margin-right: 0.6rem;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
 
     
 }
