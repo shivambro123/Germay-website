@@ -30,7 +30,7 @@ const Hero = () => {
                 <h2 className="studycontent">Studying in Germany</h2>
                 <button className="callbtn">Call for FREE counselling</button>
               </div>
-              <div className="mb-6 flex items-center flex-wrap justify-center md:justify-normal">
+              <div className="mb-6 flex items-center flex-wrap  md:justify-normal">
                 <img src={studentsgroup} alt="studentsgroup" />
                 <p className="text-black guranteewrapper">
                   {" "}
