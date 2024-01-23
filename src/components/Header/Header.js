@@ -16,7 +16,7 @@ import germany from "../../assests/testimonal/germany.svg";
 const Header = () => {
   return (
     <Container>
-      <div className="headerwrapper py-3 px-4"> 
+      <div className="headerwrapper py-2 px-4 md:py-3"> 
         <div className="contact flex flex-wrap">
           <div className="flex flex-wrap justify-center md:justify-normal mb-2 md:mb-0">
           <div className="flex items-center justify-center md:justify-start my-2 md:my-0">

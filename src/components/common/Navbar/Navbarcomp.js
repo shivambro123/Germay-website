@@ -10,9 +10,9 @@ function Navbarcomp() {
       expand="lg"
       className="bg-body-tertiary navbarwrapper sticky top-0 w-100 z-50"
     >
-      <Container>
+      <Container className="wrapper_inner">
         <Navbar.Brand data-to-scrollspy-id="first">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" className="logo"/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -20,18 +20,22 @@ function Navbarcomp() {
             <Nav.Link
               className="mx-4 font-bold text-black text-base"
               data-to-scrollspy-id="first"
+              href="#first"
             >
               Home
             </Nav.Link>
             <Nav.Link
               className="mx-4 font-bold text-black text-base"
               data-to-scrollspy-id="second"
+              href="#second"
             >
               About Us
             </Nav.Link>
             <Nav.Link
               className="mx-4 font-bold text-black text-base"
               data-to-scrollspy-id="third"
+              href="#third"
+
             >
               Services
             </Nav.Link>

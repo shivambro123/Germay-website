@@ -17,6 +17,11 @@
 }
 .studentspeak{
     font-family: 'ZonaPro-Regular';
+        width: 25%; /* Set width to 50% */
+      height: 50px; /* Adjust the height as needed */
+      margin-bottom: 3rem; /* Center the element horizontally */
+      border-bottom: 5px solid #ea7d06;
+      box-sizing: border-box; 
 }
 .testi-feedback{
     font-size: 15px;
@@ -67,8 +72,13 @@
     font-weight: 100 !important;
 }
 
-/* @media screen and (min-width:320px) and (max-width:480px){
-    .testimonal{
+@media screen and (min-width:320px) and (max-width:480px){
+    /* .testimonal{
         height: 40vh;
+    } */
+    .studentspeak{
+        width: 100%;
+        height: max-content;
     }
-} */
+
+}

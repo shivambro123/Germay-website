@@ -1,70 +1,82 @@
 .herowrapper {
-    background-image: url('./../assests/NewHero.jpeg');
-    background-position: right;
-    background-size: cover;
-    width: 100%;
+  background-image: url("./../assests/NewHero.jpeg");
+  background-position: right;
+  background-size: cover;
+  width: 100%;
 }
 
 .hero_content {
-    text-align: left;
-    font-family: 'ZonaPro-Bold';
-    font-size: 40px;
+  text-align: left;
+  font-family: "ZonaPro-Bold";
+  font-size: 40px;
 }
 
-.hero_content .dreams{
-    text-shadow: 1px 1px 1px #000000;
+.hero_content .dreams {
+  text-shadow: 1px 1px 1px #000000;
+  font-size: 40px;
 }
 
-.dreams .dream-f{
-    font-family: 'ZonaPro-Regular';
-    font-weight:bolder;
-
+.dreams .dream-f {
+  font-family: "ZonaPro-Regular";
+  font-weight: bolder;
 }
 
 .hero_content .studycontent {
-    font-size: 40px;
-    background: linear-gradient(to right, #EA7D06, #D63815);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
+  font-size: 40px;
+  background: linear-gradient(to right, #ea7d06, #d63815);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .callbtn {
-    /* background-image: linear-gradient(to right, #ea7c06c1, #f1810a);
+  /* background-image: linear-gradient(to right, #ea7c06c1, #f1810a);
      */
-    background-image: linear-gradient(to right, #EA7D06, #D63815);
-    color: #ffffff;
-    font-size: 24px;
-    padding: 6px 18px;
-    border-radius: 10px;
-    font-style: normal;
-    font-weight: 100 !important;
-    font-family: 'ZonaPro-Regular';
+  background-image: linear-gradient(to right, #ea7d06, #d63815);
+  color: #ffffff;
+  font-size: 24px;
+  padding: 6px 18px;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 100 !important;
+  font-family: "ZonaPro-Regular";
 }
 
 .guranteewrapper {
-    font-size: 22px;
+  font-size: 22px;
 }
-.our-student{
-    font-family: 'ZonaPro-Regular';
+.our-student {
+  font-family: "ZonaPro-Regular";
 }
 
 .percent {
-    background: -webkit-linear-gradient(#EA7D06, #f1810a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(#ea7d06, #f1810a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .brandlogos img {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
-    .herowrapper{
-        height: max-content;
-    }
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                .brandlogos img {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    margin-right: 0.6rem;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
-
-    
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .herowrapper {
+    height: max-content;
+  }
+  .hero_content .dreams {
+    font-size: 36px;
+  }
+  .hero_content .studycontent {
+    font-size: 36px;
+  }
+  .callbtn{
+    padding: 5px 8px;
+    font-size: 18px;
+  }
+  .brandlogos img {
+    margin-right: 0.6rem;
+  }
+  .guranteewrapper{
+    font-size: 24px;
+    text-align: center;
+  }
+  
 }
