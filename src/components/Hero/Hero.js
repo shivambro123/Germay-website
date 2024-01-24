@@ -24,11 +24,11 @@ const Hero = () => {
       <div className="herowrapper" id="first">
         <Container className="py-12">
           <Row
-            className="px-4 h-full py-1 md:py-4"
+            className="px-3 md:px-4 h-full py-1 md:py-4"
             data-aos="fade-up"
           >
             <Col lg={5} md={6} sm={12} className="hero_content">
-              <div className="drop-shadow-xl mb-4  ">
+              <div className="drop-shadow-md md:drop-shadow-xl mb-4  ">
                 <p className="dreams">
                   Empowering dreams o
                   <span className="dream-f">f</span>
@@ -48,7 +48,7 @@ const Hero = () => {
               </div>
               <div className="mt-2 md:mt-5">
                 <p
-                  className="text__16 font-thin our-student"
+                  className="text__16 our-student leading-7 md:leading-3 "
                   style={{ fontWeight: "100" }}
                 >
                   Our students finished University to work at{" "}

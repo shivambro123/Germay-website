@@ -109,27 +109,27 @@ function Success() {
   return (
     <>
       <section id="second" className="pb-5 testi">
-        <Container className="px-4 pt-4">
+        <Container className="px-3 md:px-4 pt-4">
           <div className="text-left">
             <h3 className="text-4xl font-bold mt-4 mb-4 overflow-hidden studentspeak">
               What our student speak
             </h3>
           </div>
           <div className="h-full min-w-full">
-            <div className="mb-2 flex justify-end md:mr-20 mr-2">
-              {/* <button
+            {/* <div className="mb-2 flex justify-end md:mr-20 mr-2">
+              <button
                 onClick={sliderRef?.slickPrev}
                 className="bg-orange-500 p-3 rounded-full text-white hover:text-black"
               >
                 <FaChevronLeft className="text__20" />
-              </button> */}
+              </button>
               <button
                 onClick={sliderRef?.slickNext}
                 className="bg-orange-500 p-3 rounded-full text-white hover:text-black ml-3"
               >
                 <FaChevronRight className="text__20" />
               </button>
-            </div>
+            </div> */}
 
             <Slider ref={setSliderRef} {...sliderSettings}>
               {hotelCards.map((card, index) => (

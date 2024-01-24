@@ -4,6 +4,8 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "./../../../assests/logo.svg";
 import "./../../../styles/Navbarcompcss.css";
+import { HiOutlineMail } from "react-icons/hi";
+import { IoIosCall } from "react-icons/io";
 function Navbarcomp() {
   return (
     <Navbar
@@ -15,6 +17,8 @@ function Navbarcomp() {
           <Navbar.Brand data-to-scrollspy-id="first">
             <img src={logo} alt="logo" className="logo" />
           </Navbar.Brand>
+        <div className="flex items-center me-3"><IoIosCall className="text-4xl hover:text-orange-400 h-max" /></div>
+
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
         </div>
         <Navbar.Collapse id="basic-navbar-nav">

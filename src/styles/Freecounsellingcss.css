@@ -48,6 +48,7 @@
   font-family: "ZonaPro-Regular";
   font-size: 1.4rem;
   line-height: 30px;
+  font-family: 300 !important;
 }
 
 .university_content .lorem {
@@ -190,6 +191,10 @@ s .statement {
     bottom: 0;
     left: 30.7%;
     margin-bottom: 3rem;
+  }
+  .university_content .applicartion_title{
+    font-size: 1rem;
+    line-height: 25px;
   }
 }
 

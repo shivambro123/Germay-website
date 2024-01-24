@@ -10,7 +10,7 @@
 
 @media screen and (min-width:320px) and (max-width:480px){
     .logo{
-        width: 80%;
+        width: 100%;
     }
     .wrapper_inner{
         flex-wrap: wrap !important;
