@@ -22,30 +22,14 @@ const Header = () => {
             <div className="flex items-center justify-center md:justify-start my-2 md:my-0">
               <IoIosCall className="text-xl hover:text-orange-400" />
               &nbsp;
-              <img
-                src={india}
-                alt="india logo"
-                height={26}
-                width={26}
-              />
-              <h3 className="text-xs font-bold">
-                {" "}
-                &nbsp;+91 -72198 49834
-              </h3>
+              <img src={india} alt="india logo" height={26} width={26} />
+              <h3 className="text-xs font-bold"> &nbsp;+91 -72198 49834</h3>
             </div>
             <div className="flex items-center my-2 md:my-0">
               <IoIosCall className="text-xl hover:text-orange-400  ml-2" />
               &nbsp;
-              <img
-                src={germany}
-                alt="germany logo"
-                height={26}
-                width={26}
-              />
-              <h3 className="text-xs font-bold">
-                {" "}
-                &nbsp;+49-17655471593
-              </h3>
+              <img src={germany} alt="germany logo" height={26} width={26} />
+              <h3 className="text-xs font-bold"> &nbsp;+49-17655471593</h3>
             </div>
             <div className="flex items-center my-2 md:my-0">
               <HiOutlineMail className="text-xl hover:text-orange-400  ml-2" />
@@ -56,10 +40,7 @@ const Header = () => {
             </div>
             <div className="flex items-center my-2 md:my-0">
               <FaWhatsapp className="text-xl hover:text-orange-400 ml-2" />
-              <h3 className="text-xs font-bold">
-                {" "}
-                &nbsp;+91-8484977234
-              </h3>
+              <h3 className="text-xs font-bold"> &nbsp;+91-8484977234</h3>
             </div>
           </div>
         </div>
@@ -126,16 +107,8 @@ const Header = () => {
               <div className="flex items-center justify-between my-1 md:my-0">
                 <IoIosCall className="text-xl hover:text-orange-400  ml-2" />
                 &nbsp;
-                <img
-                  src={germany}
-                  alt="germany logo"
-                  height={10}
-                  width={10}
-                />
-                <h3 className="text-xs font-bold">
-                  {" "}
-                  &nbsp;+49-17655471593
-                </h3>
+                <img src={germany} alt="germany logo" height={10} width={10} />
+                <h3 className="text-xs font-bold"> &nbsp;+49-17655471593</h3>
               </div>
             </div>
             <div>
@@ -175,10 +148,7 @@ const Header = () => {
               {" "}
               <div className="flex items-center my-2 md:my-0">
                 <FaWhatsapp className="text-xl hover:text-orange-400 ml-2" />
-                <h3 className="text-xs font-bold">
-                  {" "}
-                  &nbsp;+91-8484977234
-                </h3>
+                <h3 className="text-xs font-bold"> &nbsp;+91-8484977234</h3>
               </div>
             </div>
           </div>
