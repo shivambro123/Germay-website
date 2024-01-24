@@ -236,9 +236,10 @@ s .statement {
   .studentspeak1{
     width: 100%;
     height: max-content;
+    font-size: 26px;
   }
   .divider_line{
-    height: 4940px;
+    height: 318.75rem;
   }
   .inner_progress{
     left: -16%;
@@ -254,5 +255,9 @@ s .statement {
     height: 45px;
     width: 42%;
     bottom: 4rem;
+  }
+
+  .reverseClass{
+    flex-direction: column-reverse;
   }
 }

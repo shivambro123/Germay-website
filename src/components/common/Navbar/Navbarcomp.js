@@ -11,42 +11,43 @@ function Navbarcomp() {
       className="bg-body-tertiary navbarwrapper sticky top-0 w-100 z-50"
     >
       <Container className="wrapper_inner">
-        <Navbar.Brand data-to-scrollspy-id="first">
-          <img src={logo} alt="logo" className="logo"/>
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <div className="w-full flex justify-between">
+          <Navbar.Brand data-to-scrollspy-id="first">
+            <img src={logo} alt="logo" className="logo" />
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        </div>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link
-              className="mx-4 font-bold text-black text-base"
+              className="mx-4 font-bold text-black text-base w-max"
               data-to-scrollspy-id="first"
               href="#first"
             >
               Home
             </Nav.Link>
             <Nav.Link
-              className="mx-4 font-bold text-black text-base"
+              className="mx-4 font-bold text-black text-base w-max"
               data-to-scrollspy-id="second"
               href="#second"
             >
               About Us
             </Nav.Link>
             <Nav.Link
-              className="mx-4 font-bold text-black text-base"
+              className="mx-4 font-bold text-black text-base w-max"
               data-to-scrollspy-id="third"
               href="#third"
-
             >
               Services
             </Nav.Link>
             <Nav.Link
-              className="mx-4 font-bold text-black text-base"
+              className="mx-4 font-bold text-black text-base w-max"
               href="#link"
             >
               Reviews
             </Nav.Link>
             <Nav.Link
-              className="mx-4 font-bold text-black text-base"
+              className="mx-4 font-bold text-black text-base w-max"
               href="#link"
             >
               Contact Us

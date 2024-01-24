@@ -9,8 +9,10 @@
 
 
 @media screen and (min-width:320px) and (max-width:480px){
-  
+    .logo{
+        width: 80%;
+    }
     .wrapper_inner{
-        flex-wrap: nowrap !important;
+        flex-wrap: wrap !important;
     }
 }

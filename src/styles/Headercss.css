@@ -19,7 +19,11 @@
 
 @media screen and (min-width:320px) and (max-width:480px){
     .headerwrapper{
+        display: none;
 
+    }
+    .headerwrapper1{
+        display: none;
     }
     .contact{
         flex: 0 0 100%;

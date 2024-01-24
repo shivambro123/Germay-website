@@ -23,23 +23,34 @@ const Hero = () => {
     <>
       <div className="herowrapper" id="first">
         <Container className="py-12">
-          <Row className="px-4 py-4 h-full" data-aos="fade-up">
+          <Row
+            className="px-4 h-full py-1 md:py-4"
+            data-aos="fade-up"
+          >
             <Col lg={5} md={6} sm={12} className="hero_content">
-              <div className="mb-4 drop-shadow-xl ">
-                <p className="dreams">Empowering dreams o<span className="dream-f">f</span></p>
+              <div className="drop-shadow-xl mb-4  ">
+                <p className="dreams">
+                  Empowering dreams o
+                  <span className="dream-f">f</span>
+                </p>
                 <h2 className="studycontent">Studying in Germany</h2>
-                <button className="callbtn">Call for FREE counselling</button>
+                <button className="callbtn">
+                  Call for FREE counselling
+                </button>
               </div>
-              <div className="mb-6 flex items-center flex-wrap  md:justify-normal">
+              <div className="mb-2 flex items-center gap-2 md:flex-wrap  md:justify-normal md:mb-6">
                 <img src={studentsgroup} alt="studentsgroup" />
                 <p className="text-black guranteewrapper">
                   {" "}
-                  <span className="percent"> &nbsp; 100% </span>
+                  <span className="percent"> 100% </span>
                   guaranteed admission
                 </p>
               </div>
               <div className="mt-2 md:mt-5">
-                <p className="text-base font-thin our-student" style={{ fontWeight: "100" }}>
+                <p
+                  className="text__16 font-thin our-student"
+                  style={{ fontWeight: "100" }}
+                >
                   Our students finished University to work at{" "}
                   <span className="percent">global offices</span> of
                 </p>
@@ -51,17 +62,20 @@ const Hero = () => {
               sm={12}
               className="flex justify-center align-middle h-3/4 "
             >
-              <img src={coverimage} alt="coverimage" className="coverimage" />
+              <img
+                src={coverimage}
+                alt="coverimage"
+                className="coverimage"
+              />
             </Col>
             <div className="flex flex-wrap mt-3 brandlogos">
-                <img src={tesla} alt="tesla" />
-                <img src={bmw} alt="bmw" />
-                <img src={oodd} alt="oodd" />
-                <img src={sap} alt="sap" />
-                <img src={lufthansa} alt="lufthansa" />
-              </div>
+              <img src={tesla} alt="tesla" />
+              <img src={bmw} alt="bmw" />
+              <img src={oodd} alt="oodd" />
+              <img src={sap} alt="sap" />
+              <img src={lufthansa} alt="lufthansa" />
+            </div>
           </Row>
-  
         </Container>
       </div>
     </>
