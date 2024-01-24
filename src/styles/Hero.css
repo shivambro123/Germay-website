@@ -85,8 +85,9 @@
     padding: 0;
   }
   .brandlogos img{
-    height: auto;
+    height: 100%;
     width: 16%;
+    object-fit:fill;
   }
 
 }

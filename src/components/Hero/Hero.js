@@ -4,7 +4,7 @@ import "./../../styles/Hero.css";
 import coverimage from "./../../assests/heroimage.svg";
 import studentsgroup from "./../../assests/Group 124.svg";
 import tesla from "./../../assests/Tesla_logo.svg";
-import bmw from "./../../assests/bmw.svg";
+import bmw from "./../../assests/bmw1.svg";
 import oodd from "./../../assests/oodd.svg";
 import sap from "./../../assests/sap.svg";
 import btn_background from '../../assests/btn_background.svg';
