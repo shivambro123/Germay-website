@@ -17,7 +17,7 @@ function Navbarcomp() {
           <Navbar.Brand data-to-scrollspy-id="first">
             <img src={logo} alt="logo" className="logo" />
           </Navbar.Brand>
-        <div className="flex items-center me-3"><IoIosCall className="text-4xl hover:text-orange-400 h-max" /></div>
+        <div className="flex items-center me-3"><IoIosCall className="text-2xl hover:text-orange-400 h-max" /></div>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
         </div>
