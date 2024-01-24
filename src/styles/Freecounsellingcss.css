@@ -249,6 +249,14 @@ s .statement {
     height: 45px;
     width: 42%;
   }
+  .progress .inner_progress_visibleTop {
+    position: absolute;
+    width: 39%;
+    height: 40px;
+    top: 200px;
+    left: -15%;
+    margin-top: 20rem;
+  }
   .progress .inner_progress_visibleBottom{
     position: absolute;
     left: -17%;
