@@ -28,7 +28,7 @@ const Hero = () => {
             data-aos="fade-up"
           >
             <Col lg={5} md={6} sm={12} className="hero_content">
-              <div className="drop-shadow-md md:drop-shadow-xl mb-4  ">
+              <div className="drop-shadow-sm md:drop-shadow-xl mb-4  ">
                 <p className="dreams">
                   Empowering dreams o
                   <span className="dream-f">f</span>
