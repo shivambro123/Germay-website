@@ -62,7 +62,7 @@
     height: max-content;
     background-size: cover;
   }
-  .hero_content .dreams {
+  .hero_content .dreams { 
     font-size: 32px;
     letter-spacing: 1px;
   }

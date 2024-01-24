@@ -138,7 +138,7 @@ function Success() {
                   <div className="testimonal">
                 
                       <div className="relative text-left">
-                        <div className="px-3 py-3 pb-0 leading-4">
+                        <div className="px-3 py-3 pb-0 leading-5">
                           <p className="testi-feedback text-left text-[#000000]">
                             My entire application process with Germanywale has
                             been extremely smooth. Everyone in the team is

@@ -170,6 +170,9 @@ s .statement {
   .interview {
     padding-right: 0;
   }
+  .university_content .lorem {
+    font-size: 14px;
+  }
 
   .progress .inner_progress {
     height: 30px;

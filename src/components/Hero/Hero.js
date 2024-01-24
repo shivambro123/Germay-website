@@ -22,7 +22,7 @@ const Hero = () => {
   return (
     <>
       <div className="herowrapper" id="first">
-        <Container className="py-12">
+        <Container className="pt-12 pb-6">
           <Row
             className="px-3 md:px-4 h-full py-1 md:py-4"
             data-aos="fade-up"
@@ -68,7 +68,7 @@ const Hero = () => {
                 className="coverimage"
               />
             </Col>
-            <div className="flex flex-wrap mt-3 brandlogos">
+            <div className="flex flex-wrap mt-4 brandlogos">
               <img src={tesla} alt="tesla" />
               <img src={bmw} alt="bmw" />
               <img src={oodd} alt="oodd" />

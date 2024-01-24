@@ -65,8 +65,8 @@ const Freecounselling = () => {
                     
             </div> 
             <div className='university_content w-1/2 p-4 text-left px-5' >
-                    <h3 className='mb-3 text__40'>Free Counselling</h3>
-                    <p className='mb-3 applicartion_title'>Our personalized session at NO COST </p>
+                    <h3 className='mb-2 md:mb-3 text__40'>Free Counselling</h3>
+                    <p className='mb-2 md:mb-3 applicartion_title'>Our personalized session at NO COST </p>
                     <p className='lorem mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                     labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
                     <div className='explore_wrapper'><button className='explore_btn py-1 px-2 font-bold text-sm md:text-xl rounded md:py-2 md:px-4 '>Explore Now</button></div>
@@ -77,8 +77,8 @@ const Freecounselling = () => {
             <div>
             <div className='flex justify-between w-full free_wrapper reverseClass'>
             <div className='university_content w-1/2 p-4 text-left px-5 md:text-end' >
-                    <h3 className='mb-3 text__40'>University Shortlisting</h3>
-                    <p className='mb-3 applicartion_title'>Our personalized session at NO COST </p>
+                    <h3 className='mb-2 md:mb-3 text__40'>University Shortlisting</h3>
+                    <p className='mb-2 md:mb-3 applicartion_title'>Our personalized session at NO COST </p>
                     <p className='lorem mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                     labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
                     <div className='explore_wrapper'><button className='explore_btn py-1 px-2 font-bold text-sm md:text-xl rounded md:py-2 md:px-4 '>Explore Now</button></div>
@@ -102,8 +102,8 @@ const Freecounselling = () => {
                     
             </div> 
             <div className='university_content w-1/2 p-4 text-left px-5' >
-                    <h3 className='mb-3 text__40'>Statement of purpose</h3>
-                    <p className='mb-3 applicartion_title'>Stand out from the crowd</p>
+                    <h3 className='mb-2 md:mb-3 text__40'>Statement of purpose</h3>
+                    <p className='mb-2 md:mb-3 applicartion_title'>Stand out from the crowd</p>
                     <p className='lorem mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                     labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
                     <div className='explore_wrapper'><button className='explore_btn py-1 px-2 font-bold text-sm md:text-xl rounded md:py-2 md:px-4 '>Explore Now</button></div>
@@ -114,8 +114,8 @@ const Freecounselling = () => {
             <div>
             <div className='flex justify-between w-full free_wrapper reverseClass'>
             <div className='university_content w-1/2 p-4 text-left px-5 md:text-end' >
-                    <h3 className='mb-3 text__40'>Curriculum Vitae</h3>
-                    <p className='mb-3 applicartion_title'>Full Assistance </p>
+                    <h3 className='mb-2 md:mb-3 text__40'>Curriculum Vitae</h3>
+                    <p className='mb-2 md:mb-3 applicartion_title'>Full Assistance </p>
                     <p className='lorem mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                     labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
                     <div className='explore_wrapper'><button className='explore_btn py-1 px-2 font-bold text-sm md:text-xl rounded md:py-2 md:px-4 '>Explore Now</button></div>
@@ -139,8 +139,8 @@ const Freecounselling = () => {
                     
             </div> 
             <div className='university_content w-1/2 p-4 text-left px-5' >
-                    <h3 className='mb-3 text__40'>Letter of recommendation</h3>
-                    <p className='mb-3 applicartion_title'>“Good” to “Great” - Letter of recommendation </p>
+                    <h3 className='mb-2 md:mb-3 text__40'>Letter of recommendation</h3>
+                    <p className='mb-2 md:mb-3 applicartion_title'>“Good” to “Great” - Letter of recommendation </p>
                     <p className='lorem mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                     labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
                     <div className='explore_wrapper'><button className='explore_btn py-1 px-2 font-bold text-sm md:text-xl rounded md:py-2 md:px-4 '>Explore Now</button></div>
@@ -151,8 +151,8 @@ const Freecounselling = () => {
             <div>
             <div className='flex justify-between w-full free_wrapper reverseClass'>
             <div className='university_content w-1/2 p-4 text-left px-5 md:text-end' >
-                    <h3 className='mb-3 text__40'>University Application</h3>
-                    <p className='mb-3 applicartion_title'>Successful and hassle free application</p>
+                    <h3 className='mb-2 md:mb-3 text__40'>University Application</h3>
+                    <p className='mb-2 md:mb-3 applicartion_title'>Successful and hassle free application</p>
                     <p className='lorem mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                     labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
                     <div className='explore_wrapper'><button className='explore_btn py-1 px-2 font-bold text-sm md:text-xl rounded md:py-2 md:px-4 '>Explore Now</button></div>
@@ -176,8 +176,8 @@ const Freecounselling = () => {
                     
             </div> 
             <div className='university_content w-1/2 p-4 text-left px-5' >
-                    <h3 className='mb-3 text__40'>Visa Assistance</h3>
-                    <p className='mb-3 applicartion_title'>Visa to enter Germany</p>
+                    <h3 className='mb-2 md:mb-3 text__40'>Visa Assistance</h3>
+                    <p className='mb-2 md:mb-3 applicartion_title'>Visa to enter Germany</p>
                     <p className='lorem mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                     labore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
                     <div className='explore_wrapper'><button className='explore_btn py-1 px-2 font-bold text-sm md:text-xl rounded md:py-2 md:px-4 '>Explore Now</button></div>
